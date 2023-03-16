@@ -43,4 +43,4 @@ workflows:
             - build
       - analyze:
           requires:
-            - print_hello
+            - test
